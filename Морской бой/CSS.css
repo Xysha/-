@@ -1,0 +1,58 @@
+body{
+    background: url('1.jpg') no-repeat;
+    background-color: #000;
+    background-size: 100%;
+    margin: auto;
+}
+
+#messageArea{
+    top: 100px;
+    left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+table{
+    margin: 25px auto;
+    border-spacing: 0px;
+}
+
+td{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.Words{
+   color: #fff;
+   border: none;
+   font-size: 30px;
+}
+
+form{
+    max-width: 280px;
+    margin-left: 930px;
+    right: 0px;
+    border-radius: 20px;
+    border:2px solid #000;
+    margin-top: -100px; 
+    padding: 15px;
+    background-color: rgb(2, 48, 66);
+}
+
+form input{
+    color: #fff;
+    background-color: rgba(64, 96, 117, 0.705);
+    border-color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.hit{
+    background: url('x1.png') center center no-repeat;
+    background-size: 50px;
+}
+
+.miss{
+    background: url('lox.png') center center no-repeat;
+    background-size: 55px;
+}
